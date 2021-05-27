@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^*\.youvuz\.com$ [NC]
+RewriteRule (.*) http://*.youvuz.com$1 [R=301,L]
